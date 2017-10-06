@@ -1,5 +1,6 @@
 package com.everis.citutorial;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -12,5 +13,10 @@ public class CitutorialApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+
+	@Test
+    public void pruebaFallo() {
+        Assert.assertEquals(2, 3);
+    }
 
 }
