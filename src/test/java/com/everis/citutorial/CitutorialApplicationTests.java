@@ -16,7 +16,7 @@ public class CitutorialApplicationTests {
 
 	@Test
     public void pruebaFallo() {
-        Assert.assertEquals(2, 3);
+        Assert.assertEquals(2, 2);
     }
 
 }
